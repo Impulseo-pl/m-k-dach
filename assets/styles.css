@@ -625,3 +625,6 @@ section{padding-block:clamp(64px,8vw,128px)}
 
 /* === auto-paleta ze zdjęć klienta (dopasowanie do estetyki socials) === */
 :root{--accent:#B2532E;--accent-d:#8E3E1F;--accent-soft:rgba(178,83,46,0.10);--paper:#F9F8F8;--paper-2:#EFEEED;--paper-3:#E8E6E5;}
+
+/* trust-bar: pieczęć (tb-seal) nie może wypychać layoutu w prawo na wąskich ekranach */
+.trust-bar .tb-seal{max-width:100%;text-align:center;line-height:1.35}
